@@ -1,0 +1,1118 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 51,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.provider.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.full_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.full_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.full_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.first_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.first_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.first_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.last_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.last_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.last_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.npi.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.npi.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.npi.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.dea.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.dea.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.dea.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_credentials.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_credentials.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_credentials.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_type.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_type.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_type.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.prescriber_specialty_2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.address2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.city.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.city.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.city.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.state.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.state.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.state.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.zip.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.zip.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.children.zip.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.prescriber.children.address.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.npi.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.npi.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.npi.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_ncpdp_id_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_ncpdp_id_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_ncpdp_id_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.pharmacy_chain_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address1.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address1.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address1.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address2.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address2.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.address2.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.city.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.city.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.city.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.state.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.state.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.state.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.zip.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.zip.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.children.zip.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pharmacy.children.address.cellBorderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a4j2y7fs7q",
+  "leftColumn": 32,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "originalBottomRow": 280,
+  "originalTopRow": 47,
+  "parentColumnSpace": 27.46875,
+  "parentId": "ygmvp3rwm8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "pharmacy": {
+          "accessor": "pharmacy",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {
+            "address": {
+              "accessor": "address",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "address1": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "address1",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.address?.address1 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address1",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 1",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "address1",
+                  "position": 0,
+                  "sourceData": "2040 W. RIO SALADO PARKWAY"
+                },
+                "address2": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "address2",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.address?.address2 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address2",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 2",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "address2",
+                  "position": 1,
+                  "sourceData": "SUITE 101B"
+                },
+                "city": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "city",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.address?.city ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "city",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "City",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "city",
+                  "position": 2,
+                  "sourceData": "TEMPE"
+                },
+                "state": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "state",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.address?.state ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "state",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "State",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "state",
+                  "position": 3,
+                  "sourceData": "AZ"
+                },
+                "zip": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "zip",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.address?.zip ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "zip",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Zip",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "zip",
+                  "position": 4,
+                  "sourceData": "85281"
+                }
+              },
+              "dataType": "object",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.pharmacy.address))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Object",
+              "identifier": "address",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": true,
+              "label": "Address",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "address",
+              "position": 5,
+              "sourceData": {
+                "address1": "2040 W. RIO SALADO PARKWAY",
+                "address2": "SUITE 101B",
+                "city": "TEMPE",
+                "state": "AZ",
+                "zip": "85281"
+              }
+            },
+            "npi": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "npi",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.npi ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "npi",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Npi",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "npi",
+              "position": 1,
+              "sourceData": "1629029251"
+            },
+            "pharmacy_chain_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "pharmacy_chain_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.pharmacy_chain_name ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "pharmacy_chain_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Pharmacy Chain Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "pharmacy_chain_name",
+              "position": 4,
+              "sourceData": "ACCREDO THERAPEUTICS INC"
+            },
+            "pharmacy_chain_number": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "pharmacy_chain_number",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "number",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.pharmacy_chain_number ?? null))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Number Input",
+              "iconAlign": "left",
+              "identifier": "pharmacy_chain_number",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Pharmacy Chain Number",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "pharmacy_chain_number",
+              "position": 3,
+              "sourceData": 3129
+            },
+            "pharmacy_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "pharmacy_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.pharmacy_name ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "pharmacy_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Pharmacy Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "pharmacy_name",
+              "position": 0,
+              "sourceData": "ACCREDO HEALTH GROUP INC"
+            },
+            "pharmacy_ncpdp_id_number": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "pharmacy_ncpdp_id_number",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.pharmacy?.pharmacy_ncpdp_id_number ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "pharmacy_ncpdp_id_number",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Pharmacy Ncpdp Id Number",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "pharmacy_ncpdp_id_number",
+              "position": 2,
+              "sourceData": "0318572"
+            }
+          },
+          "dataType": "object",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.pharmacy))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "fieldType": "Object",
+          "identifier": "pharmacy",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Pharmacy",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "pharmacy",
+          "position": 2,
+          "sourceData": {}
+        },
+        "prescriber": {
+          "accessor": "prescriber",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {
+            "address": {
+              "accessor": "address",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "cellBoxShadow": "none",
+              "children": {
+                "address1": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "address1",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.address?.address1 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address1",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 1",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "address1",
+                  "position": 0,
+                  "sourceData": "8610 TECHNOLOGY WAY"
+                },
+                "address2": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "address2",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.address?.address2 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "address2",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Address 2",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "address2",
+                  "position": 1,
+                  "sourceData": ""
+                },
+                "city": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "city",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.address.city ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "city",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "City",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "city",
+                  "position": 2,
+                  "sourceData": "RENO"
+                },
+                "state": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "state",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.address.state ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "state",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "State",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "state",
+                  "position": 3,
+                  "sourceData": "NV"
+                },
+                "zip": {
+                  "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "accessor": "zip",
+                  "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "boxShadow": "none",
+                  "children": {},
+                  "dataType": "string",
+                  "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.address?.zip ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+                  "fieldType": "Text Input",
+                  "iconAlign": "left",
+                  "identifier": "zip",
+                  "isCustomField": false,
+                  "isDisabled": false,
+                  "isRequired": false,
+                  "isSpellCheck": false,
+                  "isVisible": true,
+                  "label": "Zip",
+                  "labelTextSize": "0.875rem",
+                  "originalIdentifier": "zip",
+                  "position": 4,
+                  "sourceData": "89521"
+                }
+              },
+              "dataType": "object",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.prescriber.address))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Object",
+              "identifier": "address",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isVisible": true,
+              "label": "Address",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "address",
+              "position": 9,
+              "sourceData": {
+                "address1": "8610 TECHNOLOGY WAY",
+                "address2": "",
+                "city": "RENO",
+                "state": "NV",
+                "zip": "89521"
+              }
+            },
+            "dea": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "dea",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.dea ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "dea",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Dea",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "dea",
+              "position": 4,
+              "sourceData": "FN0080084"
+            },
+            "first_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "first_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.first_name ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "first_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "First Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "first_name",
+              "position": 1,
+              "sourceData": "JEFFREY"
+            },
+            "full_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "full_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.full_name ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "full_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Full Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "full_name",
+              "position": 0,
+              "sourceData": "NUGENT, JEFFREY"
+            },
+            "last_name": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "last_name",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.last_name ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "last_name",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Last Name",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "last_name",
+              "position": 2,
+              "sourceData": "NUGENT"
+            },
+            "npi": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "npi",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.npi ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "npi",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Npi",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "npi",
+              "position": 3,
+              "sourceData": "1871572768"
+            },
+            "prescriber_credentials": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "prescriber_credentials",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.prescriber_credentials ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "prescriber_credentials",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Prescriber Credentials",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "prescriber_credentials",
+              "position": 5,
+              "sourceData": ""
+            },
+            "prescriber_specialty_1": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "prescriber_specialty_1",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.prescriber_specialty_1 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "prescriber_specialty_1",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Prescriber Specialty 1",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "prescriber_specialty_1",
+              "position": 7,
+              "sourceData": "Physician"
+            },
+            "prescriber_specialty_2": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "prescriber_specialty_2",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.prescriber_specialty_2 ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "prescriber_specialty_2",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Prescriber Specialty 2",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "prescriber_specialty_2",
+              "position": 8,
+              "sourceData": ""
+            },
+            "prescriber_type": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "accessor": "prescriber_type",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.prescriber?.prescriber_type ?? \"\"))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "prescriber_type",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Prescriber Type",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "prescriber_type",
+              "position": 6,
+              "sourceData": "PHYSICIAN"
+            }
+          },
+          "dataType": "object",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.prescriber))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "fieldType": "Object",
+          "identifier": "prescriber",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Prescriber",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "prescriber",
+          "position": 0,
+          "sourceData": {}
+        },
+        "provider": {
+          "accessor": "provider",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {},
+          "dataType": "object",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.provider))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+          "fieldType": "Object",
+          "identifier": "provider",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Provider",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "provider",
+          "position": 1,
+          "sourceData": {
+            "payee_info": {
+              "address": {
+                "address_1": "2428 KNoB CREEK RD",
+                "city": "JoHNSoN CITY",
+                "state": "TN",
+                "zip_code": "37604"
+              },
+              "first_name": "Allergy",
+              "last_name": "Associates"
+            }
+          }
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(patient_claim_providers_form.sourceData, patient_claim_providers_form.formData, patient_claim_providers_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "date_of_birth": "20/02/1990",
+        "employee_id": 1001,
+        "name": "John"
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": false,
+  "sourceData": "{{ patient_claims_table.selectedRow?.providers_data || {}\n}}",
+  "submitButtonLabel": "",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#ffffff",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Providers",
+  "topRow": 47,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "tparsoj8lb",
+  "widgetName": "patient_claim_providers_form"
+}

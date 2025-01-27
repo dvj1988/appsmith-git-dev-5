@@ -1,0 +1,1704 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#fff",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 402,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.ndc.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ndc.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.ndc.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_benefit.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_benefit.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_benefit.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_processed.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_processed.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_processed.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.paid_date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.paid_date.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.paid_date.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.member_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.member_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.member_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_of_service.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_of_service.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_of_service.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_time_processed.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_time_processed.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_time_processed.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.time_processed.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.time_processed.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.time_processed.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_filled.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_filled.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_filled.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_written.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_written.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_written.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_source.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_source.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_source.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_responsibility_amount.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_responsibility_amount.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_responsibility_amount.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.out_of_pocket_amount.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.out_of_pocket_amount.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.out_of_pocket_amount.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.transaction_status.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.transaction_status.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.transaction_status.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.days_supplied.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.days_supplied.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.days_supplied.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_strength.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_strength.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_strength.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_quantity.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_quantity.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_quantity.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_dose.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_dose.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.drug_dose.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.daw_code.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.daw_code.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.daw_code.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.fill_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.fill_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.fill_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.sub_compound_code.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.sub_compound_code.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.sub_compound_code.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.number_of_refills_authorized.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.number_of_refills_authorized.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.number_of_refills_authorized.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_awp.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_awp.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_awp.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_wac.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_wac.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.calculated_wac.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.group_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.group_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.group_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.occ.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.occ.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.occ.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.pbm_bin.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.pbm_bin.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.pbm_bin.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.rx_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.rx_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.rx_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.coupon_actual_use_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.coupon_actual_use_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.coupon_actual_use_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_dis_fee.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_dis_fee.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_dis_fee.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_sales_tax.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_sales_tax.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.plan_sales_tax.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.claim_authorization.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.claim_authorization.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.claim_authorization.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.original_claim_authorization.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.original_claim_authorization.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.original_claim_authorization.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.reversal_claim_authorization.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.reversal_claim_authorization.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.children.reversal_claim_authorization.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.authorization.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_first_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_first_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_first_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_last_name.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_last_name.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_last_name.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_date_of_birth.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_date_of_birth.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_date_of_birth.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_gender.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_gender.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_gender.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.file_record_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.file_record_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.file_record_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_file_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_file_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_file_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.paysign_unique_claim_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.paysign_unique_claim_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.paysign_unique_claim_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.sponsor_number.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.sponsor_number.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.sponsor_number.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_description.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_description.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.program_description.accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.Date_of_Service.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Paid_Date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.claim_data.children.paid_date.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_processed.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.paid_date.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_of_service.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_time_processed.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_filled.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.date_written.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.patient_date_of_birth.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5b428de12db9ad6a591955ead07f86e9.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a4j2y7fs7q",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "originalBottomRow": 402,
+  "originalTopRow": 47,
+  "parentColumnSpace": 27.46875,
+  "parentId": "ygmvp3rwm8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "authorization": {
+          "accessor": "authorization",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "cellBoxShadow": "none",
+          "children": {
+            "claim_authorization": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "accessor": "claim_authorization",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.authorization.claim_authorization))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "claim_authorization",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Claim Authorization",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "claim_authorization",
+              "position": 0,
+              "sourceData": "PYA29V004000576"
+            },
+            "original_claim_authorization": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "accessor": "original_claim_authorization",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.authorization.original_claim_authorization))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "original_claim_authorization",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Original Claim Authorization",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "original_claim_authorization",
+              "position": 1,
+              "sourceData": "PYA29V004000576"
+            },
+            "reversal_claim_authorization": {
+              "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "accessor": "reversal_claim_authorization",
+              "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "boxShadow": "none",
+              "children": {},
+              "dataType": "string",
+              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData?.authorization?.reversal_claim_authorization ?? \"\"))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+              "fieldType": "Text Input",
+              "iconAlign": "left",
+              "identifier": "reversal_claim_authorization",
+              "isCustomField": false,
+              "isDisabled": false,
+              "isRequired": false,
+              "isSpellCheck": false,
+              "isVisible": true,
+              "label": "Reversal Claim Authorization",
+              "labelTextSize": "0.875rem",
+              "originalIdentifier": "reversal_claim_authorization",
+              "position": 2,
+              "sourceData": ""
+            }
+          },
+          "dataType": "object",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.authorization))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Object",
+          "identifier": "authorization",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Authorization",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "authorization",
+          "position": 32,
+          "sourceData": {
+            "claim_authorization": "PYA29V004000576",
+            "original_claim_authorization": "PYA29V004000576",
+            "reversal_claim_authorization": ""
+          }
+        },
+        "calculated_awp": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "calculated_awp",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.calculated_awp))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "calculated_awp",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Calculated Awp",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "calculated_awp",
+          "position": 23,
+          "sourceData": 1661.95
+        },
+        "calculated_wac": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "calculated_wac",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.calculated_wac))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "calculated_wac",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Calculated Wac",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "calculated_wac",
+          "position": 24,
+          "sourceData": 0
+        },
+        "claim_file_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "claim_file_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.claim_file_id))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "claim_file_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Claim File Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "claim_file_id",
+          "position": 38,
+          "sourceData": 105
+        },
+        "claim_source": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "claim_source",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.claim_source))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "claim_source",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Claim Source",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "claim_source",
+          "position": 10,
+          "sourceData": "paysign claim file load"
+        },
+        "coupon_actual_use_number": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "coupon_actual_use_number",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.coupon_actual_use_number))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "coupon_actual_use_number",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Coupon Actual Use Number",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "coupon_actual_use_number",
+          "position": 29,
+          "sourceData": 1
+        },
+        "date_filled": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "date_filled",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_filled, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "date_filled",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Date Filled",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "date_filled",
+          "position": 8,
+          "shortcuts": false,
+          "sourceData": "2024-01-29",
+          "timePrecision": "minute"
+        },
+        "date_of_service": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "date_of_service",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_of_service, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "date_of_service",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Date Of Service",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "date_of_service",
+          "position": 5,
+          "shortcuts": false,
+          "sourceData": "2024-01-29",
+          "timePrecision": "minute"
+        },
+        "date_processed": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "date_processed",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_processed, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "date_processed",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Date Processed",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "date_processed",
+          "position": 4,
+          "shortcuts": false,
+          "sourceData": "2023-11-27",
+          "timePrecision": "minute"
+        },
+        "date_time_processed": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "date_time_processed",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_time_processed, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "date_time_processed",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Date Time Processed",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "date_time_processed",
+          "position": 6,
+          "shortcuts": false,
+          "sourceData": "2024-01-29",
+          "timePrecision": "minute"
+        },
+        "date_written": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "date_written",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.date_written, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "date_written",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Date Written",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "date_written",
+          "position": 9,
+          "shortcuts": false,
+          "sourceData": "2023-06-22",
+          "timePrecision": "minute"
+        },
+        "daw_code": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "daw_code",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.daw_code))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "daw_code",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Daw Code",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "daw_code",
+          "position": 19,
+          "sourceData": 1
+        },
+        "days_supplied": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "days supplied",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"days supplied\"]))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "days_supplied",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Days Supplied",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "days supplied",
+          "position": 14,
+          "sourceData": 28
+        },
+        "drug_dose": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "drug_dose",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.drug_dose))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "drug_dose",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Drug Dose",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "drug_dose",
+          "position": 18,
+          "sourceData": "SOSY"
+        },
+        "drug_name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "drug name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"drug name\"]))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "drug_name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Drug Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "drug name",
+          "position": 17,
+          "sourceData": "XOLAIR INJ"
+        },
+        "drug_quantity": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "drug quantity",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"drug quantity\"]))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "drug_quantity",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Drug Quantity",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "drug quantity",
+          "position": 16,
+          "sourceData": 1
+        },
+        "drug_strength": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "drug strength",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"drug strength\"]))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "drug_strength",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Drug Strength",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "drug strength",
+          "position": 15,
+          "sourceData": "150MG/ML"
+        },
+        "file_record_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "file_record_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.file_record_id))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "file_record_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "File Record Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "file_record_id",
+          "position": 37,
+          "sourceData": 303791
+        },
+        "fill_number": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "fill_number",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.fill_number))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "fill_number",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Fill Number",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "fill_number",
+          "position": 20,
+          "sourceData": 6
+        },
+        "group_number": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "group_number",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.group_number))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "group_number",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Group Number",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "group_number",
+          "position": 25,
+          "sourceData": "100073A"
+        },
+        "member_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "member_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.member_id))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "member_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Member Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "member_id",
+          "position": 4,
+          "sourceData": 1140009951
+        },
+        "ndc": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "ndc",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ndc))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "ndc",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Ndc",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "ndc",
+          "position": 0,
+          "sourceData": 50242021501
+        },
+        "number_of_refills_authorized": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "number_of_refills_authorized",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.number_of_refills_authorized))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "number_of_refills_authorized",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Number Of Refills Authorized",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "number_of_refills_authorized",
+          "position": 22,
+          "sourceData": 12
+        },
+        "occ": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "occ",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.occ))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "occ",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Occ",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "occ",
+          "position": 26,
+          "sourceData": 8
+        },
+        "out_of_pocket_amount": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "out_of_pocket_amount",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.out_of_pocket_amount))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "out_of_pocket_amount",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Out Of Pocket Amount",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "out_of_pocket_amount",
+          "position": 12,
+          "sourceData": 454.66
+        },
+        "paid_date": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "paid_date",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.paid_date, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "paid_date",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Paid Date",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "paid_date",
+          "position": 12,
+          "shortcuts": false,
+          "sourceData": "2023-11-27",
+          "timePrecision": "minute"
+        },
+        "patient_date_of_birth": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "patient_date_of_birth",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
+          "dataType": "string",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.patient_date_of_birth, \"YYYY-MM-DD\").format(\"YYYY-MM-DDTHH:mm:ss.sssZ\")))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Datepicker",
+          "identifier": "patient_date_of_birth",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Patient Date Of Birth",
+          "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
+          "originalIdentifier": "patient_date_of_birth",
+          "position": 35,
+          "shortcuts": false,
+          "sourceData": "1968-10-12",
+          "timePrecision": "minute"
+        },
+        "patient_first_name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "patient_first_name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.patient_first_name))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "patient_first_name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Patient First Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "patient_first_name",
+          "position": 33,
+          "sourceData": "DANIEL"
+        },
+        "patient_gender": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "patient_gender",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.patient_gender))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "patient_gender",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Patient Gender",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "patient_gender",
+          "position": 36,
+          "sourceData": "M"
+        },
+        "patient_last_name": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "patient_last_name",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.patient_last_name))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "patient_last_name",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Patient Last Name",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "patient_last_name",
+          "position": 34,
+          "sourceData": "OCHSENSCHLAGER"
+        },
+        "patient_responsibility_amount": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "patient_responsibility_amount",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.patient_responsibility_amount))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "patient_responsibility_amount",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Patient Responsibility Amount",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "patient_responsibility_amount",
+          "position": 11,
+          "sourceData": 329.66
+        },
+        "paysign_unique_claim_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "paysign_unique_claim_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.paysign_unique_claim_id))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "paysign_unique_claim_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Paysign Unique Claim Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "paysign_unique_claim_id",
+          "position": 39,
+          "sourceData": 3326816
+        },
+        "pbm_bin": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "pbm_bin",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.pbm_bin))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "pbm_bin",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Pbm Bin",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "pbm_bin",
+          "position": 27,
+          "sourceData": "003858"
+        },
+        "plan_dis_fee": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "plan_dis_fee",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.plan_dis_fee))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "plan_dis_fee",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Plan Dis Fee",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "plan_dis_fee",
+          "position": 30,
+          "sourceData": 0
+        },
+        "plan_sales_tax": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "plan_sales_tax",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.plan_sales_tax))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "plan_sales_tax",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Plan Sales Tax",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "plan_sales_tax",
+          "position": 31,
+          "sourceData": 0
+        },
+        "program_benefit": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "program_benefit",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.program_benefit))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "program_benefit",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Program Benefit",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "program_benefit",
+          "position": 1,
+          "sourceData": 5484.33
+        },
+        "program_description": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "program_description",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.program_description))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "program_description",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Program Description",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "program_description",
+          "position": 42,
+          "sourceData": "Xolair Copay Program"
+        },
+        "program_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "program_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.program_id))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "program_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Program Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "program_id",
+          "position": 41,
+          "sourceData": 64
+        },
+        "rx_number": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "rx_number",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.rx_number))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "rx_number",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Rx Number",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "rx_number",
+          "position": 28,
+          "sourceData": "000001681916"
+        },
+        "sponsor_number": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "sponsor_number",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sponsor_number))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "sponsor_number",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Sponsor Number",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "sponsor_number",
+          "position": 40,
+          "sourceData": 8585511152
+        },
+        "sub_compound_code": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "sub_compound_code",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sub_compound_code))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "sub_compound_code",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Sub Compound Code",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "sub_compound_code",
+          "position": 21,
+          "sourceData": 0
+        },
+        "time_processed": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "time_processed",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.time_processed))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "time_processed",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Time Processed",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "time_processed",
+          "position": 7,
+          "sourceData": "03:04:25"
+        },
+        "transaction_status": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "accessor": "transaction_status",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.transaction_status))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "transaction_status",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Transaction Status",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "transaction_status",
+          "position": 13,
+          "sourceData": "Paid"
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(patient_claim_detail_form.sourceData, patient_claim_detail_form.formData, patient_claim_detail_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "ndc": "50242021501",
+        "paid_date": "2023-03-28",
+        "patient_oop": "5",
+        "patient_responsibility_before_benefit_applied": "250",
+        "program_benefit": "245",
+        "shipping_info": {
+          "address": {
+            "address_1": "P o Box 840688",
+            "city": "Dallas",
+            "state": "TX",
+            "zip_code": "07004"
+          },
+          "first_name": "Cvs",
+          "last_name": "Specialty"
+        }
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": false,
+  "sourceData": "{{ patient_claims_table.selectedRow?.claim_data || {}\n}}",
+  "submitButtonLabel": "",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "#ffffff",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Claim Detail",
+  "topRow": 47,
+  "type": "JSON_FORM_WIDGET",
+  "useSourceData": false,
+  "version": 1,
+  "widgetId": "qlu97nix1m",
+  "widgetName": "patient_claim_detail_form"
+}
